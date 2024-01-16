@@ -1,4 +1,4 @@
-# Blue-green deployment com Azure DevOps e Azure AppServices
+# Blue-Green Deployment com Azure DevOps e Azure AppServices
 
 O Blue-Green Deployment é uma estratégia de gerenciamento de lançamento de software (Deploy/Release) que visa minimizar o tempo de inatividade e reduzir o risco associado à implementação de novas versões de um aplicativo. A ideia básica é ter dois ambientes idênticos, rotulados como "Blue" e "Green", sendo que apenas um deles atende ao tráfego de produção ao vivo a qualquer momento.
 
@@ -102,7 +102,7 @@ Agora você concluiu suas implantações **Blue/Green** com o Azure. Na próxima
 
 <img width="377" alt="image" src="https://github.com/lsmatias/blue-green/assets/28391885/f4966898-2efc-42bb-8ac3-04fb8c5ca25d">
 
-Seu site de produção ao disponivel sempre mudará de cor entre os lançamentos.
+Seu site de produção disponivel sempre mudará de cor entre os Releases.
 
 >Blue-Green Deployment não é específico para o ambiente Azure; é uma prática geral de implantação que pode ser aplicada em diversas plataformas e ambientes de hospedagem, incluindo o Azure, AWS (Amazon Web Services), Google Cloud Platform e ambientes on-premise.
 
