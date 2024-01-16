@@ -1,4 +1,4 @@
-# Blue-green deployment com Azure DevOps e AppServices
+# Blue-green deployment com Azure DevOps e Azure AppServices
 
 <img width="355" alt="image" src="https://github.com/lsmatias/blue-green/assets/28391885/6e4112d9-c446-410d-8803-ab3a488ba71f">
 
