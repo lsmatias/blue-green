@@ -34,14 +34,14 @@ Uma vez que a nova versão está implantada, são realizados diversos testes no 
 * **Switch (Flip ou SWAP):** Após a aprovação, ocorre o interruptor, redirecionando o tráfego de produção do "**Blue Environment Production**" para o "**Green Environment (Staging)**". Os usuários agora acessam a nova versão do aplicativo.
 
 ## Monitoramento:
-Uma vez que os testes são bem-sucedidos, é feito um Switch ou atualização DNS para redirecionar o tráfego de produção do **Blue Environment** para Green **Environment**". Isso torna a nova versão do aplicativo ao vivo. O sistema é monitorado de perto após o switch para garantir que a nova versão no ambiente de produção (anteriormente "**Green Environment**") esteja se comportando conforme o esperado em condições reais.
+Uma vez que os testes são bem-sucedidos, é feito um SWAP/Change Enviroment ou atualização DNS para redirecionar o tráfego de produção do **Blue Environment** para Green **Environment**". Isso torna a nova versão do aplicativo ao vivo. O sistema é monitorado de perto após o SWAP/Change Enviroment para garantir que a nova versão no ambiente de produção (anteriormente "**Green Environment**") esteja se comportando conforme o esperado em condições reais.
 
 
 <img width="390" alt="image" src="https://github.com/lsmatias/blue-green/assets/28391885/c2621159-da2f-49ae-a2a5-efcd4a723579">
 
 ## Rollback:
 
-Se ocorrerem problemas após o switch, é fácil reverter redirecionando o tráfego de volta para o ambiente original, realizado o SWAP.
+Se ocorrerem problemas após o SWAP/Change Enviroment, é fácil reverter redirecionando o tráfego de volta para o ambiente original, realizado o SWAP.
 
 <img width="562" alt="image" src="https://github.com/lsmatias/blue-green/assets/28391885/d3cc6bbc-a038-4336-a403-e0b757fcb67a">
 
@@ -87,7 +87,7 @@ Depois de abrir o **Deployment Slot** , você poderá adicionar um novo **slot**
 
 Depois de atualizar todas as configurações, você deseja implantar a versão mais recente do aplicativo no **Prod-Blue**. Em seguida, acontecerá a validação manualmente as alterações de controle de qualidade deverá executar seu conjunto de testes para esta versão específica. 
 
-Para o Switch, basta clicar no botão **Swap**  . Seu novo lançamento já está disponível com todas as alterações. É tão fácil! Leva apenas alguns segundos e você pode fazer isso a qualquer hora do dia sem interromper o site. Agora, seu site ativo está no **Prod-Blue** e você enviará sua nova versão para o **Prod Green**.
+Para o SWAP/Change Enviroment, basta clicar no botão **Swap**  . Seu novo lançamento já está disponível com todas as alterações. É tão fácil! Leva apenas alguns segundos e você pode fazer isso a qualquer hora do dia sem interromper o site. Agora, seu site ativo está no **Prod-Blue** e você enviará sua nova versão para o **Prod Green**.
 
 
 
