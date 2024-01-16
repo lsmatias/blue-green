@@ -8,7 +8,7 @@ O Blue-Green Deployment é uma estratégia de gerenciamento de lançamento de so
   
 <img width="239" alt="image" src="https://github.com/lsmatias/blue-green/assets/28391885/99984276-5598-4380-8266-bf5c4a2d7676">
 
- * **Green Environment (Staging):** Um ambiente duplicado que espelha o ambiente de produção. Ele é preparado e testado com a nova versão do aplicativo.
+ **Green Environment (Staging):** Um ambiente duplicado que espelha o ambiente de produção. Ele é preparado e testado com a nova versão do aplicativo.
 
 <img width="239" alt="image" src="https://github.com/lsmatias/blue-green/assets/28391885/541b248a-c90d-4d84-a4ff-ac8bf13a12ab">
 
@@ -31,23 +31,21 @@ Uma vez que a nova versão está implantada, são realizados diversos testes no 
 * **Testes de Integração:** Verificação da interação harmoniosa entre diferentes componentes do sistema.
 * **Testes de Usabilidade:** Avaliação da experiência do usuário para garantir que não haja problemas de usabilidade.
 * **Aprovação:** Se os testes forem bem-sucedidos e a nova versão for aprovada, o "**Green Environment (Staging)**" é considerado pronto para a produção.
-* **Switch (ou Flip):** Após a aprovação, ocorre o interruptor, redirecionando o tráfego de produção do "**Blue Environment Production**" para o "**Green Environment (Staging)**". Os usuários agora acessam a nova versão do aplicativo.
+* **Switch (Flip ou SWAP):** Após a aprovação, ocorre o interruptor, redirecionando o tráfego de produção do "**Blue Environment Production**" para o "**Green Environment (Staging)**". Os usuários agora acessam a nova versão do aplicativo.
 
-* **Monitoramento:**
+## Monitoramento:
 Uma vez que os testes são bem-sucedidos, é feito um Switch ou atualização DNS para redirecionar o tráfego de produção do **Blue Environment** para Green **Environment**". Isso torna a nova versão do aplicativo ao vivo. O sistema é monitorado de perto após o switch para garantir que a nova versão no ambiente de produção (anteriormente "**Green Environment**") esteja se comportando conforme o esperado em condições reais.
 
 
 <img width="390" alt="image" src="https://github.com/lsmatias/blue-green/assets/28391885/c2621159-da2f-49ae-a2a5-efcd4a723579">
 
+## Rollback:
 
-Rollback (se necessário):
-
-Se ocorrerem problemas após o switch, é fácil reverter redirecionando o tráfego de volta para o ambiente original.
+Se ocorrerem problemas após o switch, é fácil reverter redirecionando o tráfego de volta para o ambiente original, realizado o SWAP.
 
 <img width="562" alt="image" src="https://github.com/lsmatias/blue-green/assets/28391885/d3cc6bbc-a038-4336-a403-e0b757fcb67a">
 
-Em resumo, se tudo estiver funcionando conforme o esperado no "Ambiente Verde" após a implantação, não há necessidade de reverter, e o sistema continua operando na nova versão. A reversão é uma opção disponível apenas para cenários em que surgem problemas inesperados e é necessário voltar à versão anterior para evitar impactos negativos na experiência do usuário ou na operação do sistema.
-
+Em resumo, se tudo estiver funcionando conforme o esperado no "**Green Environment**" após a implantação, não há necessidade de reverter, e o sistema continua operando na nova versão. A reversão é uma opção disponível apenas para cenários em que surgem problemas inesperados e é necessário voltar à versão anterior para evitar impactos negativos na experiência do usuário ou na operação do sistema.
 
 <img width="398" alt="image" src="https://github.com/lsmatias/blue-green/assets/28391885/0dcf8461-7b88-4a68-8c15-e450cbaa072d">
 
