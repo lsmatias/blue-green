@@ -63,7 +63,7 @@ Em resumo, se tudo estiver funcionando conforme o esperado no "**Green Environme
 
 Agora que você já sabe o que é **Blue-Green Deployment**, vamos para a parte mais legal deste trabalho que é configurar essa arquitetura no Azure Pipelines.
 
-Vamos usar usar o Azure App Service para criar um **Deployment Slot** secundário para seus servidores de produção e, em seguida, alternar entre os dois. Isso permitirá que você faça implantações a qualquer hora do dia, pois você terá dois ambientes de produção em execução.
+Vamos usar o Azure App Service para criar um **Deployment Slot** secundário para seus servidores de produção e, em seguida, alternar entre os dois. Isso permitirá que você faça implantações a qualquer hora do dia, pois você terá dois ambientes de produção em execução.
 
 Em um ambiente padrão do Azure DevOps , você geralmente tem quatro ambientes: **Dev**, **Test**, **Stage** e **Prod**. Para criar uma estratégia de implantação **Blue/Grenn**, você precisará adicionar dois estágios extras, o **Staging-Blue** e **Prod-Blue** conforme imagem abaixo:
 
@@ -86,7 +86,7 @@ Depois de abrir o **Deployment Slot** , você poderá adicionar um novo **slot**
 
 Depois de atualizar todas as configurações, você deseja implantar a versão mais recente do aplicativo no **Prod-Blue**. Em seguida, acontecerá a validação manualmente as alterações de controle de qualidade deverá executar seu conjunto de testes para esta versão específica. 
 
-Para o SWAP/Change Enviroment, basta clicar no botão **Swap**  . Seu novo lançamento já está disponível com todas as alterações. É tão fácil! Leva apenas alguns segundos e você pode fazer isso a qualquer hora do dia sem interromper o site. Agora, seu site ativo está no **Prod-Blue** e você enviará sua nova versão para o **Prod Green**.
+Para o SWAP/Change Enviroment, basta clicar no botão **Swap**  . Seu novo lançamento (Release) já está disponível com todas as alterações. É tão fácil! Leva apenas alguns segundos e você pode fazer isso a qualquer hora do dia sem interromper o site. Agora, seu site ativo está no **Prod-Blue** e você enviará sua nova versão para o **Prod Green**.
 
 
 
