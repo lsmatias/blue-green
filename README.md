@@ -108,8 +108,8 @@ Seu site de produção disponivel sempre mudará de cor entre os Releases.
 Independentemente da plataforma em que você está hospedando seus aplicativos (Azure, AWS, GCP, data centers locais, etc.), você pode implementar o modelo Blue-Green Deployment usando as ferramentas e recursos disponíveis na plataforma específica ou utilizando soluções de automação e gerenciamento de configuração independentes da plataforma.
 ## Referencia:
 
-![Martin Fowler](https://martinfowler.com/bliki/BlueGreenDeployment.html)
+[Martin Fowler](https://martinfowler.com/bliki/BlueGreenDeployment.html)
 
-![Blue-Green AKS](https://learn.microsoft.com/en-us/azure/architecture/guide/aks/blue-green-deployment-for-aks)
+[Blue-Green AKS](https://learn.microsoft.com/en-us/azure/architecture/guide/aks/blue-green-deployment-for-aks)
 
-![Web App Spring apps Blue-Green](https://learn.microsoft.com/en-us/azure/architecture/web-apps/spring-apps/guides/blue-green-spring)
+[Web App Spring apps Blue-Green](https://learn.microsoft.com/en-us/azure/architecture/web-apps/spring-apps/guides/blue-green-spring)
