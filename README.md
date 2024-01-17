@@ -16,14 +16,13 @@ Antes de iniciar o processo de implantação, uma cópia exata do ambiente de pr
 
 A nova versão do aplicativo é implantada no **Green Environment (Staging)**. Isso pode envolver a atualização de código, bibliotecas, configurações e outros elementos necessários para a versão mais recente.
 
-                                                                                         (Merged)
-    (main) v1.0-----------------------------------------------------------------------------o----> Release v1.1
-      |                                                                                    /
-      ↓                                                                                   /
-      o ------> [Feature/nova-funcionalidade]                                            / 
-             \                                                                          /
-              \                                                                        /
-               o --- Commits ---- Open a Pull  --- Discuss and Review Commits --- Deploy/DevTest/Hml
+                                                                                       (Merged)
+    (main) v1.0-------------------------------------------------------------------------o--> Release v1.1
+      ↓                                                                                /
+      o ---> [Feature/nova-funcionalidade]                                            / 
+            \                                                                        /
+             \                                                                      /
+              o --- Commits ---- Open a Pul --- Discuss and Review Commits --- Deploy/DevTest/Hml
 
 Uma vez que a nova versão está implantada, são realizados diversos testes no "**Green Environment (Staging)**". Isso pode incluir:
 * **Testes Funcionais:** Verificação de que todas as funcionalidades estão operando conforme o esperado.
