@@ -16,7 +16,7 @@ Antes de iniciar o processo de implantação, uma cópia exata do ambiente de pr
 
 A nova versão do aplicativo é implantada no **Green Environment (Staging)**. Isso pode envolver a atualização de código, bibliotecas, configurações e outros elementos necessários para a versão mais recente.
 
-                                                                                       (Merged)
+                                                                                     (Merged)
     (main) v1.0-------------------------------------------------------------------------o--> Release v1.1
       ↓                                                                                /
       o ---> [Feature/nova-funcionalidade]                                            / 
