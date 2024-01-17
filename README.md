@@ -30,10 +30,10 @@ Uma vez que a nova versão está implantada, são realizados diversos testes no 
 * **Testes de Integração:** Verificação da interação harmoniosa entre diferentes componentes do sistema.
 * **Testes de Usabilidade:** Avaliação da experiência do usuário para garantir que não haja problemas de usabilidade.
 * **Aprovação:** Se os testes forem bem-sucedidos e a nova versão for aprovada, o "**Green Environment (Staging)**" é considerado pronto para a produção.
-* **Switch (Flip ou SWAP):** Após a aprovação, ocorre o interruptor, redirecionando o tráfego de produção do "**Blue Environment Production**" para o "**Green Environment (Staging)**". Os usuários agora acessam a nova versão do aplicativo.
+* **Switch (Flip ou SWAP):** Após a aprovação, ocorre o SWAP, redirecionando o tráfego de produção do "**Blue Environment Production**" para o "**Green Environment (Staging)**". Os usuários agora acessam a nova versão do aplicativo.
 
 ## Monitoramento:
-Uma vez que os testes são bem-sucedidos, é feito um SWAP/Change Enviroment ou atualização DNS para redirecionar o tráfego de produção do **Blue Environment** para Green **Environment**". Isso torna a nova versão do aplicativo ao vivo. O sistema é monitorado de perto após o SWAP/Change Enviroment para garantir que a nova versão no ambiente de produção (anteriormente "**Green Environment**") esteja se comportando conforme o esperado em condições reais.
+Uma vez que os testes são bem-sucedidos, é feito um SWAP/Change Enviroment ou atualização DNS para redirecionar o tráfego de produção do **Blue Environment** para **Green Environment**". Isso torna a nova versão do aplicativo ao vivo. O sistema é monitorado de perto após o SWAP/Change Enviroment para garantir que a nova versão no ambiente de produção (anteriormente "**Green Environment**") esteja se comportando conforme o esperado em condições reais.
 
 
 <img width="390" alt="image" src="https://github.com/lsmatias/blue-green/assets/28391885/c2621159-da2f-49ae-a2a5-efcd4a723579">
