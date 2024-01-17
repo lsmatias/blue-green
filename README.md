@@ -106,5 +106,10 @@ Seu site de produção disponivel sempre mudará de cor entre os Releases.
 >Blue-Green Deployment não é específico para o ambiente Azure; é uma prática geral de implantação que pode ser aplicada em diversas plataformas e ambientes de hospedagem, incluindo o Azure, AWS (Amazon Web Services), Google Cloud Platform e ambientes on-premise.
 
 Independentemente da plataforma em que você está hospedando seus aplicativos (Azure, AWS, GCP, data centers locais, etc.), você pode implementar o modelo Blue-Green Deployment usando as ferramentas e recursos disponíveis na plataforma específica ou utilizando soluções de automação e gerenciamento de configuração independentes da plataforma.
+## Referencia:
 
+![Martin Fowler](https://martinfowler.com/bliki/BlueGreenDeployment.html)
 
+![Blue-Green AKS](https://learn.microsoft.com/en-us/azure/architecture/guide/aks/blue-green-deployment-for-aks)
+
+![Web App Spring apps Blue-Green](https://learn.microsoft.com/en-us/azure/architecture/web-apps/spring-apps/guides/blue-green-spring)
