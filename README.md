@@ -50,12 +50,11 @@ Em resumo, se tudo estiver funcionando conforme o esperado no "Green Environment
 
 
 ## Vantagens do Blue-Green Deployment:
-
-* Tempo de Inatividade Mínimo: Como a troca entre os ambientes é rápida, o tempo de inatividade é minimizado.
-
-* Reversão Fácil (Rollback): Se ocorrer problema após a implementação, reverter é tão simples quanto redirecionar o tráfego de volta para o ambiente original.
-
-* Mitigação de Riscos: Ao testar completamente em um ambiente separado, o risco de implantar uma versão defeituosa na produção é reduzido.
+| Ação     | Ganho   |
+| -------- | ------- |
+|Tempo de Inatividade Mínimo| Como a troca entre os ambientes é rápida, o tempo de inatividade é minimizado.  |
+|Reversão Fácil (Rollback)|  Se ocorrer problema após a implementação, reverter é tão simples quanto redirecionar o tráfego de volta para o ambiente original. |
+|Mitigação de Riscos|  Ao testar completamente em um ambiente separado, o risco de implantar uma versão defeituosa na produção é reduzido.|
 
 >É importante observar que, embora o **Blue-Green Deployment** seja uma estratégia poderosa, pode envolver custos adicionais de infraestrutura e recursos devido à manutenção de ambientes paralelos. Ferramentas e scripts automatizados de implementação podem facilitar significativamente o processo.
 
