@@ -26,7 +26,7 @@ A nova versão do aplicativo é implantada no **Green Environment (Staging)**. I
 
 Uma vez que a nova versão está implantada, são realizados diversos testes no "**Green Environment (Staging)**". Isso pode incluir:
 * **Testes Funcionais:** Verificação de que todas as funcionalidades estão operando conforme o esperado.
-* **Testes de Desempenho:** Avaliação do desempenho da aplicação sob carga para garantir que ela atenda aos requisitos de desempenho.
+* **Testes de Desempenho:** Avaliação do desempenho da aplicação sob carga para garantir que ela atenda aos requisitos esperados.
 * **Testes de Integração:** Verificação da interação harmoniosa entre diferentes componentes do sistema.
 * **Testes de Usabilidade:** Avaliação da experiência do usuário para garantir que não haja problemas de usabilidade.
 * **Aprovação:** Se os testes forem bem-sucedidos e a nova versão for aprovada, o "**Green Environment (Staging)**" é considerado pronto para a produção.
@@ -40,11 +40,11 @@ Uma vez que os testes são bem-sucedidos, é feito um SWAP/Change Enviroment ou 
 
 ## Rollback:
 
-Se ocorrerem problemas após o SWAP/Change Enviroment, é fácil reverter redirecionando o tráfego de volta para o ambiente original, realizado o SWAP.
+Se ocorrer problemas após o SWAP/Change Enviroment, é fácil reverter, redirecionando o tráfego novamente ao ambiente original, **Blue Environment Production**.
 
 <img width="562" alt="image" src="https://github.com/lsmatias/blue-green/assets/28391885/d3cc6bbc-a038-4336-a403-e0b757fcb67a">
 
-Em resumo, se tudo estiver funcionando conforme o esperado no "**Green Environment**" após a implantação, não há necessidade de reverter, e o sistema continua operando na nova versão. A reversão é uma opção disponível apenas para cenários em que surgem problemas inesperados e é necessário voltar à versão anterior para evitar impactos negativos na experiência do usuário ou na operação do sistema.
+Em resumo, se tudo estiver funcionando conforme o esperado no "Green Environment" após a implantação, não há necessidade de reverter pois o sistema continua operando na nova versão conforme esperado. A reversão é uma opção disponível apenas para cenários em que surgem problemas inesperados e é necessário voltar à versão anterior para evitar impactos negativos na experiência do usuário ou na operação do sistema.
 
 <img width="398" alt="image" src="https://github.com/lsmatias/blue-green/assets/28391885/0dcf8461-7b88-4a68-8c15-e450cbaa072d">
 
@@ -53,7 +53,7 @@ Em resumo, se tudo estiver funcionando conforme o esperado no "**Green Environme
 
 * Tempo de Inatividade Mínimo: Como a troca entre os ambientes é rápida, o tempo de inatividade é minimizado.
 
-* Reversão Fácil (Rollback): Se ocorrerem problemas após a implementação, reverter é tão simples quanto redirecionar o tráfego de volta para o ambiente original.
+* Reversão Fácil (Rollback): Se ocorrer problema após a implementação, reverter é tão simples quanto redirecionar o tráfego de volta para o ambiente original.
 
 * Mitigação de Riscos: Ao testar completamente em um ambiente separado, o risco de implantar uma versão defeituosa na produção é reduzido.
 
