@@ -81,7 +81,7 @@ Depois de abrir o **Deployment Slot** , você poderá adicionar um novo **slot**
 <img width="725" alt="image" src="https://github.com/lsmatias/blue-green/assets/28391885/237c2dd2-b59f-4a81-9a66-9d5e2d34b4ad">
 
 
-## Implantação do Prod-Blue e depois o Swithc:
+## Implantação do Prod-Blue:
 
 Depois de atualizar todas as configurações, você deseja implantar a versão mais recente do aplicativo no **Prod-Blue**. Em seguida, acontecerá a validação manualmente as alterações de controle de qualidade deverá executar seu conjunto de testes para esta versão específica. 
 
